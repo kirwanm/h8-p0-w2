@@ -1,0 +1,45 @@
+1. Newton Second Law:
+
+Store "Massa Benda" with 600
+Store "Percepatan Benda" with 2
+Store "Resultan Gaya" without any value
+Calculate "Massa Benda" times "Percepatan Benda"
+Set "Resultan Gaya" with calculation result
+
+2. Tahun Kabisat:
+
+Initialize "Tahun" with any number
+Initialize "Hasil1" without any number
+Initialize "Hasil2" without any number
+Initialize "Hasil3" without any number
+Calculate "Tahun" mod 4
+Store calculation result to "Hasil1"
+Calculate "Tahun" mod 100
+Store calculation result to "Hasil2"
+Calculate "Tahun" mod 400
+Store calculation result to "Hasil3"
+
+IF "Hasil1" = 0 AND "Hasil2" = 0 AND "Hasil3" = 0 THEN
+    DISPLAY "Tahun Kabisat"
+ELSE
+    DISPLAY "bukan Tahun Kabisat"
+
+3. Laundry Day:
+
+Store "Jumlah Pakaian" with 0
+WHILE "Jumlah Pakaian" < 20
+    ADD "Jumlah Pakaian" by 1
+    DISPLAY "Masuk mesin cuci"
+DISPLAY "Mesin cuci Nyala"
+
+4. Periksa Kuku:
+
+Store "Siswa" to 1
+
+WHILE "Siswa" < 41
+    DISPLAY "Siswa"
+    ADD "Siswa" by 1
+    IF "kuku panjang" THEN
+        DISPLAY "Dapat Hukuman"
+    ELSE
+        DISPLAY "Dapat Pujian"
