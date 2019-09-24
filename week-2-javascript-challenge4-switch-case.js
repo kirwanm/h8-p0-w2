@@ -1,5 +1,5 @@
 //Week-2 Javascript Challenge 4 Switch-Case
-//Input: Hari Bulan Tahun (number)
+//Input: Hari(1-31) Bulan(1-12) Tahun(1900-2200) (number)
 //Output: DD MMMMMM YYYY
 //contoh: Hari=1 Bulan=1 Tahun=1945
 //        1 Januari 1945
@@ -7,7 +7,21 @@
 var hari = 16;
 var bulan = 9;
 var tahun = 2019;
+var hariTeks = ''; //tampung Tanggal yang valid
 var bulanTeks = ''; //tampung nama Bulan
+var tahunTeks = ''; //tampung Tahun yang valid
+
+if (hari < 1 || hari > 31) {
+  hariTeks = 'salah tanggal';
+} else {
+  hariTeks = hari;
+}
+
+if (tahun < 1900 || tahun > 2200) {
+  tahunTeks = 'salah tahun';
+} else {
+  tahunTeks = tahun;
+}
 
 switch (bulan) {
   case 1:
@@ -51,4 +65,4 @@ switch (bulan) {
     break;
 }
 
-console.log(hari + ' ' + bulanTeks + ' ' + tahun);
+console.log(hariTeks + ' ' + bulanTeks + ' ' + tahunTeks);
