@@ -1,6 +1,6 @@
 //Week-2, javascript, Challenge 7 -Asterisk:
 //1. Asterisk:
-var rows1 = 7;
+var rows1 = 5;
 
 while (rows1 > 0) {
   console.log('*');
@@ -8,7 +8,7 @@ while (rows1 > 0) {
 }
 
 //2. Asterisk -Nested:
-var rows2 = 7;
+var rows2 = 5;
 var asterisk = '';
 let cols2 = rows2;
 
@@ -22,7 +22,7 @@ while (rows2 > 0) {
 }
 
 //3. Asterisk -Nested:
-var rows3 = 7;
+var rows3 = 5;
 var asterisk = '';
 var cols3 = 1;
 
