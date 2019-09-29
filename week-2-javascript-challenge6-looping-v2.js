@@ -39,7 +39,9 @@ for (var numCacah = 1; numCacah < 101; numCacah += 1) {
 }
 
 //3b1. Kelipatan 3:
-for (var numCounter3 = 1; numCounter3 < 101; numCounter3 += 2) {
+var numCounter3 = 0;
+for (var numCacah = 1; numCacah < 101; numCacah += 1) {
+  numCounter3 = numCacah + 1;
   if (numCounter3 % 3 == 0) {
     console.log(numCounter3 + ' kelipatan 3');
   }
@@ -49,7 +51,9 @@ for (var numCounter3 = 1; numCounter3 < 101; numCounter3 += 2) {
 }
 
 //3b2. Kelipatan 6:
-for (var numCounter6 = 1; numCounter6 < 101; numCounter6 += 5) {
+var numCounter6 = 0;
+for (var numCacah = 1; numCacah < 101; numCacah += 1) {
+  numCounter6 = numCacah + 5
   if (numCounter6 % 6 == 0) {
     console.log (numCounter6 + ' kelipatan 6');
   }
@@ -59,7 +63,9 @@ for (var numCounter6 = 1; numCounter6 < 101; numCounter6 += 5) {
 }
 
 //3b3. Kelipatan 10:
-for (var numCounter10 = 1; numCounter10 < 101; numCounter10 += 9) {
+var numCounter10 = 0;
+for (var numCacah = 1; numCacah < 101; numCacah += 1) {
+  numCounter10 = numCacah + 9
   if (numCounter10 % 10 == 0) {
     console.log(numCounter10 + ' kelipatan 10');
   }
